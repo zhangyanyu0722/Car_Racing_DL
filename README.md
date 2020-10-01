@@ -52,7 +52,7 @@ pip install 'gym[all]'
 ```bash
 pip3 install -r requirements.txt
 ```
-
+<p align="center">
 Model | Score
 -----|------
 [Best Model](https://drive.google.com/file/d/1g4oiER4ZFwLVu1ssUcbQifj4iBeNf13M/view?usp=sharing) | 649.1
@@ -62,6 +62,7 @@ Model | Score
 [AlexNet_Gray](https://drive.google.com/file/d/17n-Zf5HyKIYqP9Vh95UrbIYXIblEz8a4/view?usp=sharing) | 464.9
 [VGG16_RGB](https://drive.google.com/file/d/1npkvXvTZvkxhyx7EIRlzGEc5L8U5I_r3/view?usp=sharing) | 594.9
 [VGG16_Gray](https://drive.google.com/file/d/1xsCawTvq3nVlHreO2e8IqXa7XzhoxL7L/view?usp=sharing) | 558.3
+</p>
 
 
 
