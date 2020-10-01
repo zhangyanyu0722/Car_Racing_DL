@@ -81,7 +81,7 @@ RGB | [EasyNet_RGB](https://drive.google.com/file/d/1GLK9af4OUU8GmmNMiOh61pmKWKh
 Gray | [EasyNet_Gray](https://drive.google.com/file/d/1a63waR8AA-yNFJ8FjUKkhu0cvYXjb7VU/view?usp=sharing) | 432.4 | [AlexNet_Gray](https://drive.google.com/file/d/17n-Zf5HyKIYqP9Vh95UrbIYXIblEz8a4/view?usp=sharing) | 464.9 | [VGG16_Gray](https://drive.google.com/file/d/1xsCawTvq3nVlHreO2e8IqXa7XzhoxL7L/view?usp=sharing) | 558.3 | [Best Model](https://drive.google.com/file/d/1g4oiER4ZFwLVu1ssUcbQifj4iBeNf13M/view?usp=sharing) | 649.1
 
 - Then you need to rename it as ```train.t7``` and put it under ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/data```
-- 
+- Test the final performance to control a robot in Gym
 ```bash
 # Test the model
 python3 main.py test
@@ -90,4 +90,8 @@ python3 main.py test
 python3 main.py score
 ```
 
+## LICENSE
+See [LICENSE](https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/blob/master/LICENSE) for details. Third-party datasets and tools are subject to their respective licenses.
 
+## Acknowledgements
+This work has benefitted enormously from conversations with Jimuyang Zhang, Yang Hu and Eshed Ohn-Bar.
