@@ -54,15 +54,18 @@ For a quick start, we suggest downing this [dataset](https://drive.google.com/fi
 ```diff
 ! NOTE: Click "Download Anyway" if it shows Google Drive can't scan this file for viruses.
 ```
-
+Download and unzip dataset
 ```bash
 # make a folder under repo.
 mkdir data
 # Unzip the dataset.
 tar -xvf teacher.tar.gz -C data
 ```
-
-
+Data Preprocessing : we map all actions into 7 classes and randomly delete 50% dataset in the "keep forward" class.
+```bash
+cd ..
+python3 preprocessing.py
+```
 
 
 Model | Score
