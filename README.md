@@ -50,11 +50,11 @@ pip3 install -r requirements.txt
 ```
 ### Data Preparation
 
-For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1p7Gy57WUBBOSka5zsy8SgFG3iC-MhJ2i/view?usp=sharing) and drop it into Deep"-Reinforcement-Learning-with-Mixed-Convolutional-Network" folder.
+For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into Deep"-Reinforcement-Learning-with-Mixed-Convolutional-Network" folder.
 ```diff
 ! NOTE: Click "Download Anyway" if it shows Google Drive can't scan this file for viruses.
 ```
-Download and unzip dataset
+Download and unzip [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing)
 ```bash
 # make a folder under repo.
 mkdir data
