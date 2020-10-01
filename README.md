@@ -12,7 +12,7 @@ We present a mixed convolutional neural network to playing the CarRacing-v0 usin
 <br/>
 [Yanyu Zhang](https://yanyuzhang.com/) : zhangya@bu.edu
 
-Hairuo Sun
+Hairuo Sun : hrsun@bu.edu
 <br/>
 
 [Paper]
@@ -45,6 +45,10 @@ cd Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/
 ```bash
 # Install gym (recommand conda)
 conda install -c conda-forge gym
+
+Or
+
+pip install 'gym[all]'
 ```
 - Install requirements.
 ```bash
