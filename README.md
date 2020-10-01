@@ -1,7 +1,7 @@
 # Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network
 
 <p align="center">
-  <img src="https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/blob/master/Figures/result.gif" height="500" width="600"/>
+  <img src="https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/blob/master/Figures/result.gif" height="400" width="400"/>
 </p>
 
 We present a mixed convolutional neural network to playing the CarRacing-v0 using imitation learning in OpenAI Gym. After training, this model can automatically detect the boundaries of road features and drive the robot like a human.
@@ -52,7 +52,14 @@ pip install 'gym[all]'
 ```bash
 pip3 install -r requirements.txt
 ```
-<p align="center">
+### Data Preparation
+
+For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1p7Gy57WUBBOSka5zsy8SgFG3iC-MhJ2i/view?usp=sharing)
+```bash
+# We recommand using GTA `val` set (using `mini` flag) to get familiar with the data pipeline first, then using `all` flag to obtain all the data
+python loader/download.py mini
+```
+
 Model | Score
 -----|------
 [Best Model](https://drive.google.com/file/d/1g4oiER4ZFwLVu1ssUcbQifj4iBeNf13M/view?usp=sharing) | 649.1
@@ -62,7 +69,7 @@ Model | Score
 [AlexNet_Gray](https://drive.google.com/file/d/17n-Zf5HyKIYqP9Vh95UrbIYXIblEz8a4/view?usp=sharing) | 464.9
 [VGG16_RGB](https://drive.google.com/file/d/1npkvXvTZvkxhyx7EIRlzGEc5L8U5I_r3/view?usp=sharing) | 594.9
 [VGG16_Gray](https://drive.google.com/file/d/1xsCawTvq3nVlHreO2e8IqXa7XzhoxL7L/view?usp=sharing) | 558.3
-</p>
+
 
 
 
