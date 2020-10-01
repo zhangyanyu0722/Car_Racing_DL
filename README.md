@@ -61,12 +61,19 @@ mkdir data
 # Unzip the dataset.
 tar -xvf teacher.tar.gz -C data
 ```
-Data Preprocessing : we map all actions into 7 classes and randomly delete 50% dataset in the "keep forward" class.
+Data Preprocessing : we map all actions into 7 classes and randomly delete 50% dataset in the "Accelerate" class.
 ```bash
-cd ..
+# Data Preprocessing
 python3 preprocessing.py
 ```
 
+### Train(OPTICAL)
+```bash
+# Train the model, do not recommand if do not have a GPU
+python3 main.py train
+```
+
+### Test
 
 Model | Score
 -----|------
