@@ -33,4 +33,23 @@ and Python dependencies list in `requirements.txt`
 
 ## Quick Start
 In this section, you will train a model from scratch, test our pretrained models, and reproduce our evaluation results.
-For more detailed instructions, please refer to [`DOCUMENTATION.md`](3d-tracking/DOCUMENTATION.md).
+
+### Installation
+- Clone this repo:
+```bash
+git clone https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network.git
+cd Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/
+```
+
+- Install PyTorch 1.6.0 and torchvision 0.7.0 from http://pytorch.org and other dependencies.
+```bash
+# Install gym (recommand conda)
+conda install -c conda-forge gym
+```
+- Install requirements.
+```bash
+pip3 install -r requirements.txt
+```
+
+
+
