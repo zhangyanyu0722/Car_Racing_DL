@@ -45,15 +45,23 @@ cd Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/
 ```bash
 # Install gym (recommand conda)
 conda install -c conda-forge gym
-
-Or
-
+# Or
 pip install 'gym[all]'
 ```
 - Install requirements.
 ```bash
 pip3 install -r requirements.txt
 ```
+
+Model | Score
+-----|------
+Best Model | 649.1
+EasyNet_RGB | 438.8
+EasyNet_Gray | 432.4
+AlexNet_RGB | 471.5
+AlexNet_Gray | 464.9
+VGG16_RGB | 594.9
+VGG16_Gray | 558.3
 
 
 
