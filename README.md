@@ -67,13 +67,13 @@ Data Preprocessing : we map all actions into 7 classes and randomly delete 50% d
 python3 preprocessing.py
 ```
 
-### Train(OPTICAL)
+### Train Model (Optical)
 ```bash
 # Train the model, do not recommand if do not have a GPU
 python3 main.py train
 ```
 
-### Test
+### Model Evaluation
 
 Model | Score
 -----|------
