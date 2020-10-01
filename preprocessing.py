@@ -3,7 +3,7 @@ import numpy as np
 from analyse import data_analyse_seven
 from imitations import load_imitations
 import random
-import os
+import os,sys
 
 def data_reduce(data_folder):
     """
