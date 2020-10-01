@@ -82,5 +82,12 @@ Gray | [EasyNet_Gray](https://drive.google.com/file/d/1a63waR8AA-yNFJ8FjUKkhu0cv
 
 - Then you need to rename it as ```train.t7``` and put it under ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/data```
 - 
+```bash
+# Test the model
+python3 main.py test
+
+# Score the model
+python3 main.py score
+```
 
 
