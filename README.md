@@ -6,13 +6,13 @@
 
 ## Introduction
 
-We present a mixed convolutional neural network to playing the CarRacing-v0 using imitation learning in OpenAI Gym. After training, this model can automatically detect the boundaries of road features and drive the robot like a human.
+- We present a mixed convolutional neural network to playing the CarRacing-v0 using imitation learning in OpenAI Gym. After training, this model can automatically detect the boundaries of road features and drive the robot like a human.
 
 ## Team Numbers
 
-[Yanyu Zhang](https://yanyuzhang.com/) : zhangya@bu.edu
+- [Yanyu Zhang](https://yanyuzhang.com/) : zhangya@bu.edu
 
-Hairuo Sun : hrsun@bu.edu
+- Hairuo Sun : hrsun@bu.edu
 
 ## Prerequisites
 ```diff
@@ -25,10 +25,8 @@ Hairuo Sun : hrsun@bu.edu
     - `1.6.0` (with CUDA 10.2, torchvision 0.7.0)
 - Anaconda
 
-and Python dependencies list in `requirements.txt` 
-
 ## Quick Start
-In this section, you will train a model from scratch, test our pretrained models, and reproduce our evaluation results.
+- In this section, you will train a model from scratch, test our pretrained models, and reproduce our evaluation results.
 
 ### Installation
 - Clone this repo:
@@ -50,18 +48,18 @@ pip3 install -r requirements.txt
 ```
 ### Data Preparation
 
-For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into Deep"-Reinforcement-Learning-with-Mixed-Convolutional-Network" folder.
+- For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network``` folder.
 ```diff
 ! NOTE: Click "Download Anyway" if it shows Google Drive can't scan this file for viruses.
 ```
-Download and unzip [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing)
+- Download and unzip [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing)
 ```bash
 # make a folder under repo.
 mkdir data
 # Unzip the dataset.
 tar -xvf teacher.tar.gz -C data
 ```
-Data Preprocessing : we map all actions into 7 classes and randomly delete 50% dataset in the "Accelerate" class.
+- Data Preprocessing : we map all actions into 7 classes and randomly delete 50% dataset in the "Accelerate" class.
 ```bash
 # Data Preprocessing
 python3 preprocessing.py
@@ -75,6 +73,8 @@ python3 main.py train
 
 ### Model Evaluation
 
+- For convenience, we have prepared the pre-trained model here, just click to download.
+
 Model | Score
 -----|------
 [Best Model](https://drive.google.com/file/d/1g4oiER4ZFwLVu1ssUcbQifj4iBeNf13M/view?usp=sharing) | 649.1
@@ -85,6 +85,7 @@ Model | Score
 [VGG16_RGB](https://drive.google.com/file/d/1npkvXvTZvkxhyx7EIRlzGEc5L8U5I_r3/view?usp=sharing) | 594.9
 [VGG16_Gray](https://drive.google.com/file/d/1xsCawTvq3nVlHreO2e8IqXa7XzhoxL7L/view?usp=sharing) | 558.3
 
-
+- Then you need to rename it as ```train.t7``` and put it under ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/data```
+- 
 
 
