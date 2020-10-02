@@ -1,7 +1,7 @@
 # Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network
 
 <p align="center">
-  <img src="https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/blob/master/Figures/result.gif" height="400" width="400"/>
+  <img src="https://github.com/zhangyanyu0722/Car_Racing_DL/blob/master/Figures/result.gif" height="400" width="400"/>
 </p>
 
 ## Introduction
@@ -31,8 +31,8 @@
 ### Installation
 - Clone this repo:
 ```bash
-git clone https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network.git
-cd Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/
+git clone https://github.com/zhangyanyu0722/Car_Racing_DL.git
+cd Car_Racing_DL/
 ```
 
 - Install PyTorch 1.6.0 and torchvision 0.7.0 from http://pytorch.org and other dependencies.
@@ -48,7 +48,7 @@ pip3 install -r requirements.txt
 ```
 ### Data Preparation
 
-- For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network``` folder.
+- For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into ```Car_Racing_DL``` folder.
 ```diff
 ! NOTE: Click "Download Anyway" if it shows Google Drive can't scan this file for viruses.
 ```
@@ -80,7 +80,7 @@ Channel | Model | Score | Model | Score | Model | Score | Model | Score
 RGB | [EasyNet_RGB](https://drive.google.com/file/d/1GLK9af4OUU8GmmNMiOh61pmKWKhCqWmH/view?usp=sharing) | 438.8 | [AlexNet_RGB](https://drive.google.com/file/d/17L2ZqE12jmdBLMrPzQEOWPDvcDAU8q9h/view?usp=sharing) | 471.5 | [VGG16_RGB](https://drive.google.com/file/d/1npkvXvTZvkxhyx7EIRlzGEc5L8U5I_r3/view?usp=sharing) | 594.9
 Gray | [EasyNet_Gray](https://drive.google.com/file/d/1a63waR8AA-yNFJ8FjUKkhu0cvYXjb7VU/view?usp=sharing) | 432.4 | [AlexNet_Gray](https://drive.google.com/file/d/17n-Zf5HyKIYqP9Vh95UrbIYXIblEz8a4/view?usp=sharing) | 464.9 | [VGG16_Gray](https://drive.google.com/file/d/1xsCawTvq3nVlHreO2e8IqXa7XzhoxL7L/view?usp=sharing) | 558.3 | [Best Model](https://drive.google.com/file/d/1g4oiER4ZFwLVu1ssUcbQifj4iBeNf13M/view?usp=sharing) | 649.1
 
-- Then you need to rename it as ```train.t7``` and put it under ```Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/data```
+- Then you need to rename it as ```train.t7``` and put it under ```Car_Racing_DL/data```
 - Test the final performance to control a robot in Gym
 ```bash
 # Test the model
@@ -91,7 +91,7 @@ python3 main.py score
 ```
 
 ## LICENSE
-See [LICENSE](https://github.com/zhangyanyu0722/Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network/blob/master/LICENSE) for details. Third-party datasets and tools are subject to their respective licenses.
+See [LICENSE](https://github.com/zhangyanyu0722/Car_Racing_DL/blob/master/LICENSE) for details. Third-party datasets and tools are subject to their respective licenses.
 
 ## Acknowledgements
 This work has benefitted enormously from conversations with Jimuyang Zhang, Yang Hu and Eshed Ohn-Bar.
