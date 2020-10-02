@@ -46,7 +46,7 @@ pip install 'gym[all]'
 ```bash
 pip3 install -r requirements.txt
 ```
-### Data Preparation
+### Data Preparation (Optical)
 
 - For a quick start, we suggest downing this [dataset](https://drive.google.com/file/d/1RtoSgk78raI549A3BE8uYRV9Ly9DY7GJ/view?usp=sharing) and drop it into ```Car_Racing_DL``` folder.
 ```diff
