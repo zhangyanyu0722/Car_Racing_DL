@@ -102,7 +102,7 @@ def binary_cross_entropy_loss(batch_out, batch_gt):
 
 def RMSE_loss(batch_out, batch_gt):
     """
-    Calculates the cross entropy loss between the prediction of the network and
+    Calculates the root mean square loss between the prediction of the network and
     the ground truth class for one batch.
     batch_out:      torch.Tensor of size (batch_size, number_of_classes)
     batch_gt:       torch.Tensor of size (batch_size, number_of_classes)
