@@ -8,6 +8,8 @@
 
 - We present a mixed convolutional neural network to playing the CarRacing-v0 using imitation learning in OpenAI Gym. After training, this model can automatically detect the boundaries of road features and drive the robot like a human.
 
+- [Paper](https://arxiv.org/abs/2010.00717)
+
 ## Team Numbers
 
 - [Yanyu Zhang](https://yanyuzhang.com/) : zhangya@bu.edu
