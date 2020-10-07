@@ -75,7 +75,7 @@ python3 main.py train
 
 ### Model Evaluation
 
-- For convenience, we have prepared the pre-trained model here, just click to download.
+- For convenience, we provide many pre-trained models here, just click to download.
 
 Channel | Model | Score | Model | Score | Model | Score | Model | Score
 -----|------|------|------|------|------|------|------|------
