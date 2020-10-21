@@ -1,5 +1,4 @@
-# Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network (RLMCN)
-- Winner of BU EC500 Class Challenge
+# Deep-Reinforcement-Learning-with-Mixed-Convolutional-Network (RLMCN) [Winner of BU EC500 Class Challenge]
 
 <p align="center">
   <img src="https://github.com/zhangyanyu0722/Car_Racing_DL/blob/master/Figures/result.gif" height="400" width="400"/>
